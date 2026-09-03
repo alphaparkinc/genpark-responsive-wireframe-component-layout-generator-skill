@@ -1,0 +1,39 @@
+{
+  "name": "genpark-responsive-wireframe-component-layout-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Text-to-wireframe responsive UI component layout tree generator and auto-layout schema builder.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "design-ai",
+  "tags": [
+    "figma-ai",
+    "galileo-ai",
+    "wireframe-generator",
+    "ui-layout",
+    "auto-layout"
+  ],
+  "inputs": {
+    "prompt_description": {
+      "type": "string"
+    },
+    "viewport_width_px": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "wireframe_id": {
+      "type": "string"
+    },
+    "viewport_mode": {
+      "type": "string"
+    },
+    "component_tree": {
+      "type": "array"
+    },
+    "wireframe_canvas_json_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
